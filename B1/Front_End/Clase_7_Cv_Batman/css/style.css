@@ -1,0 +1,60 @@
+.fondoimg {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+body {
+  margin: 0px;
+}
+.tituloppal {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding: 8px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.titulosecundario {
+  background: #c4c4c4;
+  color: #005677;
+  padding: 3px;
+  letter-spacing: 3px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.detallecontenido {
+  padding: 20px;
+}
+.estilolista {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+}
+.estiloletra {
+  font-style: italic;
+  font-weight: bold;
+}
+.padre {
+  display: flex;
+  margin-bottom: 8px;
+}
+.hijoizquierda {
+  font-weight: bold;
+  padding-right: 5px;
+}
+.estilofooter {
+  background: #005677;
+  color: white;
+  margin-top: 300px;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.telefono {
+  width: 130px;
+}
+.img {
+  margin: 0;
+  padding: 0;
+}
