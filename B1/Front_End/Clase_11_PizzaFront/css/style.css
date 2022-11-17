@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #222222;
+  width: 100%;
+  display: flex;
+  padding: 10px 25px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+div #lista {
+  color: #f3f3f3;
+  width: 50%;
+  display: inline-flex;
+  gap: 20px;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  column-gap: 10px;
+  margin: 90px 50px 50px;
+  color: #fc200c;
+}
+
+#primerarticulo {
+  width: 480px;
+  height: 350px;
+  padding: 25px;
+  background-image: url(/img/delivery.jpg);
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+strong {
+  color: #ffffff;
+}
+
+#segundoarticulo {
+  background-color: #ffffff;
+  width: 480px;
+  height: 350px;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.estilool {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.estiloh2 {
+  text-align: center;
+}
+
+h3 {
+  color: #222222;
+  padding-top: 55px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  color: #222222;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+footer {
+  background-color: #222222;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+  flex-wrap: wrap;
+  line-height: 30px;
+}
+#imgfooter {
+padding-top: 20px;
+}
